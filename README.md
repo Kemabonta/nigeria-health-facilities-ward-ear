@@ -1,4 +1,4 @@
-# Nigeria Health Facilities, Combined Layer with 2025 Ward Electricity Access (v1.0)
+# Nigeria Health Facilities, Combined Layer with 2025 Ward Electricity Access
 
 A national, deduplicated point layer of health facilities in Nigeria (72,008 records), built on GRID3 NGA Health Facilities v4.0 and supplemented with OpenStreetMap facilities that GRID3 does not contain. Every facility is joined to its ward and to the ward's 2025 electricity access rate (EAR), estimated from raw NOAA/EOG VIIRS night-time lights.
 
@@ -114,12 +114,12 @@ Users must also credit the input sources named in this README: GRID3 NGA - Healt
 
 ### How to cite this dataset
 
-Kemabonta, T. (2026). Nigeria health facilities, combined layer with 2025 ward electricity access (v1.0) [Data set]. GitHub. https://github.com/Kemabonta/nigeria-health-facilities-ward-ear
+Kemabonta, T. (2026). Nigeria health facilities, combined layer with 2025 ward electricity access [Data set]. GitHub. https://github.com/Kemabonta/nigeria-health-facilities-ward-ear
 
 ```bibtex
 @misc{kemabonta2026nghealthear,
   author = {Kemabonta, Tam},
-  title = {Nigeria health facilities, combined layer with 2025 ward electricity access (v1.0)},
+  title = {Nigeria health facilities, combined layer with 2025 ward electricity access},
   year = {2026},
   publisher = {GitHub},
   howpublished = {\url{https://github.com/Kemabonta/nigeria-health-facilities-ward-ear}}
