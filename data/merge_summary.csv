@@ -1,0 +1,10 @@
+Source,Records considered,Records in combined layer,Notes
+GRID3 v4.0 (base),70235.0,70235,"All records kept as base layer, including 11,706 without coordinates (has_coords = False)"
+OSM clinic/hospital/doctors/health post,6367.0,1773,Added = no GRID3 match under the rules in Method notes
+OSM - matched to GRID3 (not added),4548.0,0,"dup_name+distance<=100m: 3,766; dup_unnamed<=50m: 385; dup_name+distance<=250m: 304; dup_name_GRID3_nocoord_same_LGA: 47; dup_name_same_LGA<=1km: 46"
+"OSM - no coordinates (relations, not added)",46.0,0,
+OSM - pharmacy/dentist/lab etc. (excluded),1590.0,0,Out of scope for facility layer
+WHO/KEMRI 2019,,0,Not retrieved (download blocked)
+NHFR,,0,"Not retrieved (site unavailable, no public bulk export)"
+eHealth Africa (HDX),,0,Not retrieved (download blocked)
+COMBINED,,72008,"70,235 GRID3 + 1,773 OSM"

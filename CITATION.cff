@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below, and also cite GRID3/CIESIN and OpenStreetMap contributors."
+title: "Nigeria Health Facilities, Combined Layer with 2025 Ward Electricity Access"
+version: "1.0"
+date-released: "2026-11-03"
+type: dataset
+authors:
+  - family-names: Kemabonta
+    given-names: Tam
+    affiliation: Entric
+license: ODbL-1.0
+keywords: [Nigeria, health facilities, primary health care, electricity access, VIIRS, mini-grids, GIS]
+references:
+  - type: dataset
+    title: "GRID3 NGA - Health Facilities v4.0"
+    authors:
+      - name: "Center for Integrated Earth System Information (CIESIN), Columbia University"
+    year: 2026
+    doi: 10.7916/pjpv-9q55
+    license: CC-BY-4.0
+  - type: database
+    title: "OpenStreetMap"
+    authors:
+      - name: "OpenStreetMap contributors"
+    url: "https://www.openstreetmap.org/copyright"
+    license: ODbL-1.0
+  - type: dataset
+    title: "GRID3 NGA - Operational Wards v4.0"
+    authors:
+      - name: "Center for Integrated Earth System Information (CIESIN), Columbia University"
+    year: 2026
+    license: CC-BY-SA-4.0
+  - type: dataset
+    title: "VIIRS Nighttime Lights (VNL) v2 annual composites"
+    authors:
+      - name: "Earth Observation Group, Payne Institute for Public Policy, Colorado School of Mines"
+    url: "https://eogdata.mines.edu/products/vnl/"

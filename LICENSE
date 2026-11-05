@@ -1,0 +1,27 @@
+LICENSE SUMMARY - Nigeria Health Facilities, Combined Layer with 2025 Ward Electricity Access v1.0
+Copyright (c) 2026 Tam Kemabonta
+
+This repository contains material under different licenses. Each one requires attribution.
+
+1. Combined facility database
+   Files: data/nigeria_health_facilities_combined_v1.0.csv and .geojson, data/phc_in_wards_ear_below_25pct.csv
+   License: Open Database License (ODbL) v1.0, https://opendatacommons.org/licenses/odbl/1-0/
+   Individual contents: Database Contents License (DbCL) v1.0, https://opendatacommons.org/licenses/dbcl/1-0/
+   Why: the database contains data derived from OpenStreetMap (ODbL, share-alike). Public adapted versions must also be under ODbL.
+   Required attribution: "Contains data from GRID3 NGA - Health Facilities v4.0 (CIESIN, Columbia University, CC BY 4.0) and (c) OpenStreetMap contributors (ODbL)."
+   GRID3 health facility data (CC BY 4.0) may be adapted and redistributed under other terms with attribution. It is included here with attribution.
+
+2. Ward EAR table, summary tables and figures
+   Files: data/ward_ear_2025_with_facility_counts.csv, data/phc_by_ward_ear_band_*.csv, data/facility_counts_by_state.csv, data/source_comparison.csv, data/merge_summary.csv, figures/*
+   License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), https://creativecommons.org/licenses/by-sa/4.0/
+   Why: ward units and boundaries come from GRID3 NGA - Operational Wards v4.0 (CC BY-SA 4.0).
+   Required attribution: "Tam Kemabonta (2026); ward boundaries GRID3/CIESIN (CC BY-SA 4.0); night-time lights EOG, Colorado School of Mines (VIIRS VNL v2); facilities GRID3/CIESIN (CC BY 4.0) and (c) OpenStreetMap contributors (ODbL)."
+
+3. Documentation (README.md, CITATION.cff): CC BY 4.0.
+
+4. Scripts (scripts/): MIT License
+   Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+Sources not included: WHO/KEMRI (Maina et al. 2019), the Nigeria Health Facility Registry and the eHealth Africa HDX dataset were not downloaded and are not redistributed here.
+NHFR terms of reuse are not stated publicly; NHFR-derived attributes appear only as passed through GRID3 v4.0 (CC BY 4.0).
+Full license texts: ODbL https://opendatacommons.org/licenses/odbl/1-0/ ; CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/legalcode ; CC BY 4.0 https://creativecommons.org/licenses/by/4.0/legalcode
