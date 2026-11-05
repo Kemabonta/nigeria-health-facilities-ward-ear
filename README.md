@@ -2,7 +2,7 @@
 
 A national, deduplicated point layer of health facilities in Nigeria (72,008 records), built on GRID3 NGA Health Facilities v4.0 and supplemented with OpenStreetMap facilities that GRID3 does not contain. Every facility is joined to its ward and to the ward's 2025 electricity access rate (EAR), estimated from raw NOAA/EOG VIIRS night-time lights.
 
-Author: **Tam Kemabonta** (Entric). Version 1.0, 3 November 2026.
+Author: **Tam Kemabonta**. Version 1.0, 3 November 2026.
 
 ## Contents
 
@@ -30,7 +30,7 @@ Author: **Tam Kemabonta** (Entric). Version 1.0, 3 November 2026.
 | Nigeria Health Facility Registry (NHFR), hfr.health.gov.ng |  |  |  | Not stated publicly |
 | eHealth Africa Nigeria health facilities (HDX "nigeria-health-facilities") |  |  |  | CC BY 4.0 (HDX listing) |
 
-- **GRID3 NGA - Health Facilities v4.0**: CIESIN, Columbia University (2026), https://doi.org/10.7916/pjpv-9q55, CC BY 4.0. Integrates NHFR 2024/2026, NPHCDA and GRID3 v2 inputs.
+- **GRID3 NGA - Health Facilities v4.0**: CIESIN, Columbia University (2026), https://data.grid3.org/datasets/GRID3::grid3-nga-health-facilities-v4-0/about, CC BY 4.0. Integrates NHFR 2024/2026, NPHCDA and GRID3 v2 inputs.
 - **OpenStreetMap**: © OpenStreetMap contributors, Geofabrik Nigeria extract (3 Nov 2026), ODbL 1.0.
 - **Ward boundaries**: GRID3 NGA - Operational Wards v4.0, CIESIN, CC BY-SA 4.0.
 - **Night-time lights**: Earth Observation Group, Payne Institute, Colorado School of Mines, VIIRS Nighttime Lights (VNL) v2 annual composites, https://eogdata.mines.edu/products/vnl/.
@@ -108,6 +108,20 @@ See `LICENSE`. In short: the combined facility database is under the **Open Data
 
 ## Citation
 
-Kemabonta, T. (2026). *Nigeria Health Facilities, Combined Layer with 2025 Ward Electricity Access* (v1.0). Entric. See `CITATION.cff`.
+If you use this dataset, please cite this repository and name Tam Kemabonta as author.
 
-Please also cite: CIESIN (2026) GRID3 NGA - Health Facilities v4.0, https://doi.org/10.7916/pjpv-9q55; and © OpenStreetMap contributors.
+Users must also credit the input sources named in this README: GRID3 NGA - Health Facilities v4.0 (CIESIN, Columbia University), GRID3 NGA - Operational Wards v4.0, © OpenStreetMap contributors, NOAA/EOG VIIRS Nighttime Lights, and WorldPop.
+
+### How to cite this dataset
+
+Kemabonta, T. (2026). Nigeria health facilities, combined layer with 2025 ward electricity access (v1.0) [Data set]. GitHub. https://github.com/Kemabonta/nigeria-health-facilities-ward-ear
+
+```bibtex
+@misc{kemabonta2026nghealthear,
+  author = {Kemabonta, Tam},
+  title = {Nigeria health facilities, combined layer with 2025 ward electricity access (v1.0)},
+  year = {2026},
+  publisher = {GitHub},
+  howpublished = {\url{https://github.com/Kemabonta/nigeria-health-facilities-ward-ear}}
+}
+```

@@ -1,13 +1,14 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as below, and also cite GRID3/CIESIN and OpenStreetMap contributors."
+message: "If you use this dataset, please cite it using the metadata from this file, and also credit GRID3/CIESIN and OpenStreetMap contributors."
 title: "Nigeria Health Facilities, Combined Layer with 2025 Ward Electricity Access"
 version: "1.0"
 date-released: "2026-11-03"
 type: dataset
+repository-code: "https://github.com/Kemabonta/nigeria-health-facilities-ward-ear"
+url: "https://github.com/Kemabonta/nigeria-health-facilities-ward-ear"
 authors:
   - family-names: Kemabonta
     given-names: Tam
-    affiliation: Entric
 license: ODbL-1.0
 keywords: [Nigeria, health facilities, primary health care, electricity access, VIIRS, mini-grids, GIS]
 references:
@@ -16,7 +17,7 @@ references:
     authors:
       - name: "Center for Integrated Earth System Information (CIESIN), Columbia University"
     year: 2026
-    doi: 10.7916/pjpv-9q55
+    url: "https://data.grid3.org/datasets/GRID3::grid3-nga-health-facilities-v4-0/about"
     license: CC-BY-4.0
   - type: database
     title: "OpenStreetMap"
@@ -26,6 +27,7 @@ references:
     license: ODbL-1.0
   - type: dataset
     title: "GRID3 NGA - Operational Wards v4.0"
+    url: "https://data.grid3.org/datasets/GRID3::grid3-nga-operational-wards-v4-0/about"
     authors:
       - name: "Center for Integrated Earth System Information (CIESIN), Columbia University"
     year: 2026
